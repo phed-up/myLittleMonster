@@ -12,6 +12,8 @@
 		E78B8FF41CFCDBE30060493A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78B8FF21CFCDBE30060493A /* Main.storyboard */; };
 		E78B8FF61CFCDBE30060493A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78B8FF51CFCDBE30060493A /* Assets.xcassets */; };
 		E78B8FF91CFCDBE30060493A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78B8FF71CFCDBE30060493A /* LaunchScreen.storyboard */; };
+		E78B901F1D00DC410060493A /* DragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B901E1D00DC410060493A /* DragImage.swift */; };
+		E78B90211D00E3200060493A /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B90201D00E3200060493A /* MonsterImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E78B8FF51CFCDBE30060493A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E78B8FF81CFCDBE30060493A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E78B8FFA1CFCDBE30060493A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78B901E1D00DC410060493A /* DragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImage.swift; sourceTree = "<group>"; };
+		E78B90201D00E3200060493A /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				E78B8FEE1CFCDBE30060493A /* AppDelegate.swift */,
 				E78B8FF01CFCDBE30060493A /* ViewController.swift */,
+				E78B901E1D00DC410060493A /* DragImage.swift */,
+				E78B90201D00E3200060493A /* MonsterImg.swift */,
 				E78B8FF21CFCDBE30060493A /* Main.storyboard */,
 				E78B8FF51CFCDBE30060493A /* Assets.xcassets */,
 				E78B8FF71CFCDBE30060493A /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78B90211D00E3200060493A /* MonsterImg.swift in Sources */,
 				E78B8FF11CFCDBE30060493A /* ViewController.swift in Sources */,
+				E78B901F1D00DC410060493A /* DragImage.swift in Sources */,
 				E78B8FEF1CFCDBE30060493A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +296,7 @@
 				E78B8FFF1CFCDBE30060493A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
