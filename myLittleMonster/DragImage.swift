@@ -41,12 +41,14 @@ class DragImage: UIImageView
     {
         if let touch = touches.first, let target = droppedTarget
         {
-            let position = touch.locationInView(self.superview)
+            let position = touch.locationInView(touch.view!.window)
             if CGRectContainsPoint(target.frame, position)
             {
                 NSNotificationCenter.defaultCenter().postNotification(NSNotification(name: "onTargetDropped", object: nil))
             }
         }
+        
+        
         
         self.center = originalPosition
         
